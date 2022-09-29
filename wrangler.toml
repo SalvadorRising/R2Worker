@@ -1,0 +1,13 @@
+name = "projektrising"
+type = "javascript"
+compatibility_date = "2022-05-29"
+
+main = "index.js"
+
+account_id = "7009709c187fd298fd1d622cf3cbbb21"
+workers_dev = true
+
+[[r2_buckets]]
+binding = 'MY_BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'testwranglerbucket'
+preview_bucket_name = 'testbucket'
